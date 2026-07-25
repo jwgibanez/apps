@@ -1,12 +1,95 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>apps.jwgibanez.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>apps.jwgibanez.com</title>
+<style>
+  :root {
+    --sage: #445C42;
+    --gold: #C6A15B;
+    --cream: #F7F2E9;
+    --ink: #2A2A28;
+    --muted: #6B6B66;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--sage);
+    color: var(--cream);
+    padding: 48px 24px 36px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  header p {
+    margin: 0;
+    color: var(--gold);
+    font-size: 0.95rem;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  .app {
+    background: #fff;
+    border-left: 4px solid var(--gold);
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .app h2 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    color: var(--sage);
+  }
+  .app ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .app li { margin-bottom: 4px; }
+  a { color: var(--sage); }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
 </head>
 <body>
+
+<header>
   <h1>apps.jwgibanez.com</h1>
-  <p>Coming soon.</p>
+  <p>Links for apps &amp; supporting pages</p>
+</header>
+
+<main>
+
+  <div class="app">
+    <h2>Angelus</h2>
+    <ul>
+      <li><a href="/angelus/privacy-policy.html">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2026 jwgibanez. This page is served via GitHub Pages.
+</footer>
+
 </body>
 </html>
