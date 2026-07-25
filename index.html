@@ -54,6 +54,16 @@
     margin: 0 0 10px;
     font-size: 1.1rem;
     color: var(--sage);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .app .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 2px rgba(68,92,66,0.15);
   }
   .app ul {
     margin: 0;
@@ -79,7 +89,7 @@
 <main>
 
   <div class="app">
-    <h2>Angelus</h2>
+    <h2><img class="icon" src="/angelus/icon.png" alt="Angelus app icon">Angelus</h2>
     <ul>
       <li><a href="/angelus/privacy-policy.html">Privacy Policy</a></li>
     </ul>

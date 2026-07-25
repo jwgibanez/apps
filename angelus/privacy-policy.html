@@ -27,10 +27,13 @@
     text-align: center;
   }
   header .icon {
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     margin: 0 auto 16px;
     display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 3px rgba(247,242,233,0.25);
   }
   header h1 {
     margin: 0 0 6px;
@@ -101,12 +104,8 @@
 <body>
 
 <header>
-  <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M12 2v3M12 2 10 4M12 2l2 2" stroke="#F7F2E9" stroke-width="1.2" stroke-linecap="round"/>
-    <path d="M6 17c0-4 2.5-7 6-7s6 3 6 7H6z" fill="#C6A15B"/>
-    <rect x="4" y="17" width="16" height="2.4" rx="1.2" fill="#F7F2E9"/>
-    <circle cx="12" cy="19.5" r="1" fill="#F7F2E9"/>
-  </svg>
+  <img class="icon" src="icon.png" alt="Angelus app icon">
+
   <h1>Privacy Policy</h1>
   <p>Angelus — a Catholic devotional app</p>
 </header>
